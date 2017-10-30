@@ -1,6 +1,7 @@
 /*
  * StringResult.h
  *
+ *
  *  Created on: Oct 30, 2017
  *      Author: keith
  */
@@ -10,7 +11,9 @@
 
 class StringResult {
 public:
+	//want to copy the string from the middle of these 2
 	StringResult(char *pb, char *pe);
+
 	virtual ~StringResult();
 
 	// overloaded assignment
